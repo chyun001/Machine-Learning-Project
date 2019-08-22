@@ -6,15 +6,6 @@ current_set_of_features = []; % Initialize an empty set
 UltimateAccuracy = 0;
 UltimateFeatures = [];
 
-%Testing Stuff (Delete Later)
-test = 1:size(data,2)-1;
-test(1) = [];
-EmptySet = [22];
-%testt = size(data,2);
-%current_set_of_features_dummy = [6,97];
-%accuracy = leave_one_out_cross_validation(data,current_set_of_features_dummy,EmptySet);
-%
-
 AlgorithmChoice = input('Type the number of the algorithm you want to run. ');
 
 if(AlgorithmChoice == 1)
